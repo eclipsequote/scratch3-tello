@@ -34,37 +34,37 @@ const message = {
         'zh-cn': '自动降落'
     },
     up: {
-        'ja': '上に [X]cm 上がる',
+        'ja': '上に [X] cm 上がる',
         'ja-Hira': 'うえに [X] センチあがる',
         'en': 'up [X] cm',
         'zh-cn': '向上飞 [X] cm'
     },
     down: {
-        'ja': '下に [X]cm 下がる',
+        'ja': '下に [X] cm 下がる',
         'ja-Hira': 'したに [X] センチさがる',
         'en': 'down [X] cm',
         'zh-cn': '向下飞 [X] cm'
     },
     left: {
-        'ja': '左に [X]cm 動く',
+        'ja': '左に [X] cm 動く',
         'ja-Hira': 'ひだりに [X] センチうごく',
         'en': 'move left [X] cm',
         'zh-cn': '向左飞 [X] cm'
     },
     right: {
-        'ja': '右に [X]cm 動く',
+        'ja': '右に [X] cm 動く',
         'ja-Hira': 'みぎに [X] センチうごく',
         'en': 'move right [X] cm',
         'zh-cn': '向右飞 [X] cm'
     },
     forward: {
-        'ja': '前に [X]cm 進む',
+        'ja': '前に [X] cm 進む',
         'ja-Hira': 'まえに [X] センチすすむ',
         'en': 'move forward [X] cm',
         'zh-cn': '向前飞 [X] cm'
     },
     back: {
-        'ja': '後ろに [X]cm 下がる',
+        'ja': '後ろに [X] cm 下がる',
         'ja-Hira': 'うしろに [X] センチさがる',
         'en': 'move back [X] cm',
         'zh-cn': '向后飞 [X] cm'
