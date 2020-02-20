@@ -47,30 +47,11 @@ import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
 import telloIconURL from './tello/tello.png';
-import telloInsetIconURL from './tello/tello-small.png';
-
+import telloInsetIconURL from './tello/tello-small.svg';
+import telloConnectionIconURL from './tello/tello-illustration.svg';
+import telloConnectionSmallIconURL from './tello/tello-small.svg';
 
 export default [
-    {
-        name: (
-            <FormattedMessage
-                defaultMessage="Tello"
-                description="Name for the 'Tello' extension"
-                id="gui.extension.tello.name"
-            />
-        ),
-        extensionId: 'tello',
-        iconURL: telloIconURL,
-        insetIconURL: telloInsetIconURL,
-        description: (
-            <FormattedMessage
-                defaultMessage="Tello with Scratch 3.0"
-                description="Description for the 'Tello' extension"
-                id="gui.extension.tello.description"
-            />
-        ),
-        featured: true
-    },
     {
         name: (
             <FormattedMessage
@@ -341,5 +322,35 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'DJI Tello',
+        extensionId: 'tello',
+        collaborator: 'RYZE',
+        iconURL: telloIconURL,
+        insetIconURL: telloInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Let creativity fly."
+                description="Description for the Tello extension"
+                id="gui.extension.tello.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        bluetoothRequired: false,
+        internetConnectionRequired: true,
+        launchPeripheralConnectionFlow: true,
+        useAutoScan: false,
+        connectionIconURL: telloConnectionIconURL,
+        connectionSmallIconURL: telloConnectionSmallIconURL,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting"
+                description="Message to help people connect to their Tello."
+                id="gui.extension.tello.connectingMessage"
+            />
+        ),
+        helpLink: 'https://www.ryzerobotics.com/support'
     }
 ];
